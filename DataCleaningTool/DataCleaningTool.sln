@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "front", "front", "{FCB0E6C0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "corelibs", "corelibs", "{6E2E9A65-A601-4EDD-ADD9-7FCDDCCC94FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCleaningToolLogics", "DataCleaningToolLogics\DataCleaningToolLogics.csproj", "{6CDB524E-0CC4-48E1-925B-3FFE80DBF6E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCleaningToolLogic", "DataCleaningToolLogics\DataCleaningToolLogic.csproj", "{6CDB524E-0CC4-48E1-925B-3FFE80DBF6E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{26A90E0F-1DDE-41A4-81BE-BD856F42C399}"
 EndProject

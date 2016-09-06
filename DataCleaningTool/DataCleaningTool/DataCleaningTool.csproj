@@ -95,6 +95,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataCleaningToolLogics\DataCleaningToolLogic.csproj">
+      <Project>{6cdb524e-0cc4-48e1-925b-3ffe80dbf6e5}</Project>
+      <Name>DataCleaningToolLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleMVVM\SimpleMVVM.csproj">
+      <Project>{a62057bf-ee6a-4ad1-96bf-6e12ffce71b4}</Project>
+      <Name>SimpleMVVM</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

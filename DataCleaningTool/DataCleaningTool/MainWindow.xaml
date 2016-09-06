@@ -4,9 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DataCleaningTool"
+        xmlns:logic="clr-namespace:DataCleaningToolLogic.ViewModel;assembly=DataCleaningToolLogic"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <logic:MainWindowViewModel/>
+    </Window.DataContext>
     <Grid>
-        
+        <Button Margin="140" Content="{Binding ButtonCaption}" Command="{Binding ButtonClickCommand}" CommandParameter="{Binding RelativeSource={RelativeSource Self}, Path=Content}" />
     </Grid>
 </Window>
