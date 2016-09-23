@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace DataCleaningTool.Base
+namespace DataCleaningTool.BaseVM
 {
     public class RelayCommand : ICommand
     {

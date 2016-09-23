@@ -65,8 +65,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Base\BaseViewModel.cs" />
-    <Compile Include="Base\RelayCommand.cs" />
+    <Compile Include="BaseVM\BaseViewModel.cs" />
+    <Compile Include="BaseVM\RelayCommand.cs" />
     <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -100,8 +100,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstraction\" />
-    <Folder Include="Implementation\" />
+    <Folder Include="Logic\Abstraction\" />
+    <Folder Include="Logic\Implementation\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

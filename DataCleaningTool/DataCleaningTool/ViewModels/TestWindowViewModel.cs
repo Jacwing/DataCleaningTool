@@ -1,4 +1,4 @@
-﻿using DataCleaningTool.Base;
+﻿using DataCleaningTool.BaseVM;
 using System;
 using System.Collections.Generic;
 using System.Linq;
